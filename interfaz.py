@@ -8,7 +8,7 @@ class MyMainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Ejercicio 1 seccion Practica Prueba individual")
-        self.resize(600, 400)
+        self.resize(400, 300)
 
         # #crear la seccion superior de la ventana
         self.username_label = QLabel("NOMBRE USUARIO")
